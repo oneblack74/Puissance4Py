@@ -1,1 +1,1 @@
-# Puissance4Py
+Puissance 4 réaliser en python.
