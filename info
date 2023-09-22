@@ -1,0 +1,11 @@
+Le taux d'apprentissage alpha contrôle la vitesse à laquelle votre agent met à jour sa table Q. Si vous le fixez trop haut, il pourrait être instable et ne pas converger vers une politique optimale, tandis que s'il est trop bas, l'agent pourrait avoir besoin de beaucoup plus d'itérations pour apprendre.
+
+Le facteur de réduction gamma contrôle l'importance des récompenses futures. Un gamma proche de 1 signifie que votre agent est très orienté vers l'avenir, tandis qu'un gamma proche de 0 signifie qu'il ne s'intéresse qu'aux récompenses immédiates.
+
+Le taux d'exploration initial epsilon contrôle la probabilité qu'un agent choisit une action aléatoire plutôt que la meilleure action selon sa table Q. Si vous le fixez trop bas, l'agent peut manquer de découvrir des actions potentiellement meilleures. En revanche, si vous le fixez trop haut, il peut ne jamais converger vers une politique optimale.
+
+En général, les valeurs les plus couramment utilisées pour ces paramètres sont :
+
+alpha : 0.1 à 0.5
+gamma : 0.8 à 0.99
+epsilon : 0.05 à 0.2
